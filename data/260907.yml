@@ -5,13 +5,13 @@ about:
   head: 22210ca
   archived: true
   latestVersion: "v2.1.3"
-  collectedAt: 2026-09-07T05:42:07Z
+  collectedAt: 2026-09-07T18:55:24Z
 timeline:
   created: 2012-09-10
   lastCommit: 2021-07-07
   lastRelease: 2021-04-08
 popularity:
-  star: 14068
+  star: 14070
   watcher: 298
   fork: 1919
   release: 22
@@ -80,7 +80,7 @@ total:
   commit: 299
 ---
 path: /home/runner/.x-repo/github.com/sivel/speedtest-cli
-collectedAt: 2026-09-07T05:42:07Z
+collectedAt: 2026-09-07T18:55:25Z
 loc:
   Python:
     code: 1711
@@ -196,7 +196,7 @@ checks:
       - 'Warn: 0 commits out of 5 are checked with a SAST tool'
 ---
 eget:
-  collectedAt: 2026-09-07T05:42:08+00:00
+  collectedAt: 2026-09-07T18:55:28+00:00
   platform:
     darwin/arm64:
       name:  null
