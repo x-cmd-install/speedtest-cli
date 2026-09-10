@@ -7,7 +7,7 @@ about:
   latestVersion: "v2.1.3"
   latestRelease: "v2.1.3"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T20:25:08Z
+  collectedAt: 2026-09-10T23:35:05Z
 timeline:
   created: 2012-09-10
   lastCommit: 2021-07-07
@@ -84,7 +84,7 @@ total:
   commit: 299
 ---
 path: /home/runner/.x-repo/github.com/sivel/speedtest-cli
-collectedAt: 2026-09-10T20:25:11Z
+collectedAt: 2026-09-10T23:35:06Z
 loc:
   Python:
     code: 1711
