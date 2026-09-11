@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 14,066 · **Forks**: 1,920 · **Open issues**: 0 · **Contributors**: 9
+- **Stars**: 14,065 · **Forks**: 1,920 · **Open issues**: 0 · **Contributors**: 9
 
 ## Totals (cumulative)
 
@@ -91,4 +91,4 @@ Install metadata for speedtest-cli lives in the [x-cmd/install](https://github.c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260911.yml` · 2026-09-11T05:41:16Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T19:23:55Z._
