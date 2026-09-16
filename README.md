@@ -32,9 +32,9 @@ Overall score: **2 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (0/10) — Found 1/28 approved changesets -- score normalized to 0
-- **Dangerous-Workflow** (-1/10) — no workflows found
+- **Packaging** (-1/10) — packaging workflow not detected
 - **Pinned-Dependencies** (-1/10) — no dependencies found
+- **Code-Review** (0/10) — Found 1/28 approved changesets -- score normalized to 0
 
 ## Source
 
@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 14,064 · **Forks**: 1,921 · **Open issues**: 0 · **Contributors**: 9
+- **Stars**: 14,063 · **Forks**: 1,920 · **Open issues**: 0 · **Contributors**: 9
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-16 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-17 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-06-17 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-03-19 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-09-20 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-09-25 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-08-17 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-18 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-06-18 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-20 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-09-21 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-09-26 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Improve this data
 
@@ -74,4 +74,4 @@ Install metadata for speedtest-cli lives in the [x-cmd/install](https://github.c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260915.yml` · 2026-09-15T06:14:00Z._
+_Snapshot: `data/card/260916.yml` · 2026-09-16T06:15:57Z._

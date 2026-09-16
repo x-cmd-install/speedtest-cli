@@ -32,9 +32,9 @@ x install speedtest-cli
 
 评分最低的几项:
 
-- **Code-Review** (0/10) — Found 1/28 approved changesets -- score normalized to 0
-- **Dangerous-Workflow** (-1/10) — no workflows found
+- **Packaging** (-1/10) — packaging workflow not detected
 - **Pinned-Dependencies** (-1/10) — no dependencies found
+- **Code-Review** (0/10) — Found 1/28 approved changesets -- score normalized to 0
 
 ## 源代码
 
@@ -48,7 +48,7 @@ x install speedtest-cli
 
 ## 流行度
 
-- **Star**: 14,064 · **Fork**: 1,921 · **开放 issue**: 0 · **贡献者**: 9
+- **Star**: 14,063 · **Fork**: 1,920 · **开放 issue**: 0 · **贡献者**: 9
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install speedtest-cli
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-16 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-17 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-06-17 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-03-19 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-09-20 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-09-25 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-08-17 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-18 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-06-18 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-20 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-09-21 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-09-26 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## 改进这些数据
 
@@ -74,4 +74,4 @@ speedtest-cli 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/ins
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260915.yml` · 2026-09-15T06:14:01Z._
+_数据快照: `data/card/260916.yml` · 2026-09-16T06:15:58Z._
