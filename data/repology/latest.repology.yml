@@ -1,110 +1,16 @@
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: speedtest-cli
-  binnames:
-    - speedtest-cli
-  visiblename: speedtest-cli
-  version: 2.1.3
-  origversion: 2.1.3-2
-  status: newest
-  maintainers:
-    - jcc@debian.org
-  categories:
-    - misc
-- repo: stalix
-  srcname: bin/speedtest/cli/unwrap
-  binname: bin/speedtest/cli
-  visiblename: bin/speedtest/cli
-  version: 2.1.3
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
-- repo: debian_11
-  subrepo: bullseye/main
-  srcname: speedtest-cli
-  binnames:
-    - speedtest-cli
-  visiblename: speedtest-cli
-  version: 2.1.3
-  origversion: 2.1.3-2
-  status: newest
-  maintainers:
-    - jcc@debian.org
-  categories:
-    - misc
-- repo: debian_12
-  subrepo: bookworm/main
-  srcname: speedtest-cli
-  binnames:
-    - speedtest-cli
-  visiblename: speedtest-cli
-  version: 2.1.3
-  origversion: 2.1.3-2
-  status: newest
-  maintainers:
-    - jcc@debian.org
-  categories:
-    - misc
-- repo: debian_13
-  subrepo: trixie/main
-  srcname: speedtest-cli
-  binnames:
-    - speedtest-cli
-  visiblename: speedtest-cli
-  version: 2.1.3
-  origversion: 2.1.3-3
-  status: newest
-  maintainers:
-    - jcc@debian.org
-  categories:
-    - misc
-- repo: deepin_unstable
+- repo: raspbian_oldstable
   subrepo: main
   srcname: speedtest-cli
   binnames:
     - speedtest-cli
   visiblename: speedtest-cli
-  version: 2.0.2
-  origversion: 2.0.2-1+deb10u2
-  status: outdated
-  maintainers:
-    - jcc@debian.org
-- repo: deepin_23
-  subrepo: community
-  srcname: speedtest-cli
-  binnames:
-    - speedtest-cli
-  visiblename: speedtest-cli
   version: 2.1.3
   origversion: 2.1.3-2
   status: newest
   maintainers:
     - jcc@debian.org
   categories:
-    - utils
-- repo: artix
-  subrepo: galaxy
-  srcname: speedtest-cli
-  binname: speedtest-cli
-  visiblename: speedtest-cli
-  version: 2.1.3
-  origversion: 2.1.3-10.1
-  status: newest
-  summary: Command line interface for testing internet bandwidth using speedtest.net
-  licenses:
-    - Apache-2.0
-- repo: chromebrew
-  srcname: speedtest_cli
-  visiblename: speedtest_cli
-  version: 2.1.3-1
-  origversion: null
-  status: untrusted
-  summary: Command line interface for testing internet bandwidth using speedtest.net
-  licenses:
-    - Apache-2.0
+    - misc
 - repo: alpine_3_17
   subrepo: main
   srcname: speedtest-cli
@@ -248,6 +154,19 @@
     - fcolista@alpinelinux.org
   licenses:
     - Apache-2.0
+- repo: raspbian_stable
+  subrepo: main
+  srcname: speedtest-cli
+  binnames:
+    - speedtest-cli
+  visiblename: speedtest-cli
+  version: 2.1.3
+  origversion: 2.1.3-3
+  status: newest
+  maintainers:
+    - jcc@debian.org
+  categories:
+    - misc
 - repo: alpine_3_23
   subrepo: community
   srcname: speedtest-cli
@@ -379,6 +298,89 @@
     - severach@aur
   licenses:
     - Apache-2.0
+- repo: artix
+  subrepo: galaxy
+  srcname: speedtest-cli
+  binname: speedtest-cli
+  visiblename: speedtest-cli
+  version: 2.1.3
+  origversion: 2.1.3-10.1
+  status: newest
+  summary: Command line interface for testing internet bandwidth using speedtest.net
+  licenses:
+    - Apache-2.0
+- repo: chromebrew
+  srcname: speedtest_cli
+  visiblename: speedtest_cli
+  version: 2.1.3-1
+  origversion: null
+  status: untrusted
+  summary: Command line interface for testing internet bandwidth using speedtest.net
+  licenses:
+    - Apache-2.0
+- repo: debian_11
+  subrepo: bullseye/main
+  srcname: speedtest-cli
+  binnames:
+    - speedtest-cli
+  visiblename: speedtest-cli
+  version: 2.1.3
+  origversion: 2.1.3-2
+  status: newest
+  maintainers:
+    - jcc@debian.org
+  categories:
+    - misc
+- repo: debian_12
+  subrepo: bookworm/main
+  srcname: speedtest-cli
+  binnames:
+    - speedtest-cli
+  visiblename: speedtest-cli
+  version: 2.1.3
+  origversion: 2.1.3-2
+  status: newest
+  maintainers:
+    - jcc@debian.org
+  categories:
+    - misc
+- repo: debian_13
+  subrepo: trixie/main
+  srcname: speedtest-cli
+  binnames:
+    - speedtest-cli
+  visiblename: speedtest-cli
+  version: 2.1.3
+  origversion: 2.1.3-3
+  status: newest
+  maintainers:
+    - jcc@debian.org
+  categories:
+    - misc
+- repo: deepin_unstable
+  subrepo: main
+  srcname: speedtest-cli
+  binnames:
+    - speedtest-cli
+  visiblename: speedtest-cli
+  version: 2.0.2
+  origversion: 2.0.2-1+deb10u2
+  status: outdated
+  maintainers:
+    - jcc@debian.org
+- repo: deepin_23
+  subrepo: community
+  srcname: speedtest-cli
+  binnames:
+    - speedtest-cli
+  visiblename: speedtest-cli
+  version: 2.1.3
+  origversion: 2.1.3-2
+  status: newest
+  maintainers:
+    - jcc@debian.org
+  categories:
+    - utils
 - repo: deepin_25
   subrepo: community
   srcname: speedtest-cli
@@ -390,6 +392,19 @@
   status: newest
   maintainers:
     - jcc@debian.org
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: speedtest-cli
+  binnames:
+    - speedtest-cli
+  visiblename: speedtest-cli
+  version: 2.1.3
+  origversion: 2.1.3-2
+  status: newest
+  maintainers:
+    - jcc@debian.org
+  categories:
+    - misc
 - repo: epel_7
   srcname: python-speedtest-cli
   visiblename: python-speedtest-cli
@@ -436,20 +451,19 @@
     - ASL 2.0
   categories:
     - Unspecified
-- repo: fedora_39
-  subrepo: release
+- repo: raspbian_testing
+  subrepo: main
   srcname: speedtest-cli
   binnames:
     - speedtest-cli
   visiblename: speedtest-cli
   version: 2.1.3
-  origversion: 2.1.3-9.fc39
+  origversion: 2.1.3-3
   status: newest
-  summary: Command line interface for testing internet bandwidth
-  licenses:
-    - ASL 2.0
+  maintainers:
+    - jcc@debian.org
   categories:
-    - Unspecified
+    - misc
 - repo: fedora_39
   subrepo: release
   srcname: python-speedtest-cli
@@ -460,6 +474,20 @@
   origversion: 2.1.3-9.fc39
   status: newest
   summary: Command-line interface for testing internet bandwidth using speedtest.net
+  licenses:
+    - ASL 2.0
+  categories:
+    - Unspecified
+- repo: fedora_39
+  subrepo: release
+  srcname: speedtest-cli
+  binnames:
+    - speedtest-cli
+  visiblename: speedtest-cli
+  version: 2.1.3
+  origversion: 2.1.3-9.fc39
+  status: newest
+  summary: Command line interface for testing internet bandwidth
   licenses:
     - ASL 2.0
   categories:
@@ -494,20 +522,6 @@
     - Unspecified
 - repo: fedora_41
   subrepo: release
-  srcname: python-speedtest-cli
-  binnames:
-    - python3-speedtest-cli
-  visiblename: python-speedtest-cli
-  version: 2.1.3
-  origversion: 2.1.3-13.fc41
-  status: newest
-  summary: Command-line interface for testing internet bandwidth using speedtest.net
-  licenses:
-    - ASL 2.0
-  categories:
-    - Unspecified
-- repo: fedora_41
-  subrepo: release
   srcname: speedtest-cli
   binnames:
     - speedtest-cli
@@ -520,18 +534,20 @@
     - ASL 2.0
   categories:
     - Unspecified
-- repo: nix_stable_25_05
-  srcname: speedtest-cli
-  visiblename: speedtest-cli
+- repo: fedora_41
+  subrepo: release
+  srcname: python-speedtest-cli
+  binnames:
+    - python3-speedtest-cli
+  visiblename: python-speedtest-cli
   version: 2.1.3
-  origversion: null
+  origversion: 2.1.3-13.fc41
   status: newest
-  summary: Command line interface for testing internet bandwidth using speedtest.net
-  maintainers:
-    - makefu@syntax-fehler.de
-    - domen@dev.si
+  summary: Command-line interface for testing internet bandwidth using speedtest.net
   licenses:
-    - Apache-2.0
+    - ASL 2.0
+  categories:
+    - Unspecified
 - repo: fedora_42
   subrepo: release
   srcname: python-speedtest-cli
@@ -588,20 +604,15 @@
     - Apache-2.0
   categories:
     - Unspecified
-- repo: fedora_44
-  subrepo: release
-  srcname: speedtest-cli
-  binnames:
-    - speedtest-cli
+- repo: scoop
+  subrepo: main
+  binname: speedtest-cli
   visiblename: speedtest-cli
-  version: 2.1.3
-  origversion: 2.1.3-17.fc44
-  status: newest
-  summary: Command line interface for testing internet bandwidth
+  version: 1.2.0
+  origversion: null
+  status: outdated
   licenses:
-    - Apache-2.0
-  categories:
-    - Unspecified
+    - Freeware
 - repo: fedora_44
   subrepo: release
   srcname: python-speedtest-cli
@@ -612,6 +623,20 @@
   origversion: 2.1.3-20.fc44
   status: newest
   summary: Command-line interface for testing internet bandwidth using speedtest.net
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
+- repo: fedora_44
+  subrepo: release
+  srcname: speedtest-cli
+  binnames:
+    - speedtest-cli
+  visiblename: speedtest-cli
+  version: 2.1.3
+  origversion: 2.1.3-17.fc44
+  status: newest
+  summary: Command line interface for testing internet bandwidth
   licenses:
     - Apache-2.0
   categories:
@@ -644,18 +669,6 @@
     - Apache-2.0
   categories:
     - Unspecified
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: speedtest-cli
-  visiblename: speedtest-cli
-  version: 2.1.3
-  origversion: 2.1.3-bp156.3.2
-  status: newest
-  summary: Command line interface for testing internet bandwidth
-  licenses:
-    - Apache-2.0
-  categories:
-    - System/Benchmark
 - repo: fedora_rawhide
   subrepo: development
   srcname: python-speedtest-cli
@@ -793,34 +806,6 @@
     - Apache-2
   categories:
     - net
-- repo: nix_stable_25_05
-  srcname: python312Packages.speedtest-cli
-  visiblename: python3.12-speedtest-cli
-  version: 2.1.3
-  origversion: null
-  status: newest
-  summary: Command line interface for testing internet bandwidth using speedtest.net
-  maintainers:
-    - makefu@syntax-fehler.de
-    - domen@dev.si
-  licenses:
-    - Apache-2.0
-  categories:
-    - python312Packages
-- repo: mageia_9
-  subrepo: core/release
-  srcname: python-speedtest-cli
-  binnames:
-    - python3-speedtest-cli
-  visiblename: python-speedtest-cli
-  version: 2.1.3
-  origversion: 2.1.3-3.mga9
-  status: newest
-  summary: Small command-line program to view Network Connexion speed
-  licenses:
-    - Apache License
-  categories:
-    - Development/Python
 - repo: mageia_10
   subrepo: core/release
   srcname: python-speedtest-cli
@@ -835,6 +820,19 @@
     - Apache License
   categories:
     - Development/Python
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: speedtest-cli
+  binnames:
+    - speedtest-cli
+  visiblename: speedtest-cli
+  version: 2.0.2
+  origversion: 2.0.2-1+deb10u2
+  status: outdated
+  maintainers:
+    - jcc@debian.org
+  categories:
+    - utils
 - repo: mageia_cauldron
   subrepo: core/release
   srcname: python-speedtest-cli
@@ -896,6 +894,18 @@
   categories:
     - utils
 - repo: nix_stable_24_05
+  srcname: speedtest-cli
+  visiblename: speedtest-cli
+  version: 2.1.3
+  origversion: null
+  status: newest
+  summary: Command line interface for testing internet bandwidth using speedtest.net
+  maintainers:
+    - makefu@syntax-fehler.de
+    - domen@dev.si
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_24_05
   srcname: python312Packages.speedtest-cli
   visiblename: python3.12-speedtest-cli
   version: 2.1.3
@@ -923,18 +933,6 @@
     - Apache-2.0
   categories:
     - python311Packages
-- repo: nix_stable_24_05
-  srcname: speedtest-cli
-  visiblename: speedtest-cli
-  version: 2.1.3
-  origversion: null
-  status: newest
-  summary: Command line interface for testing internet bandwidth using speedtest.net
-  maintainers:
-    - makefu@syntax-fehler.de
-    - domen@dev.si
-  licenses:
-    - Apache-2.0
 - repo: nix_stable_24_11
   srcname: speedtest-cli
   visiblename: speedtest-cli
@@ -989,7 +987,7 @@
     - Apache-2.0
   categories:
     - python313Packages
-- repo: nix_stable_25_11
+- repo: nix_stable_25_05
   srcname: speedtest-cli
   visiblename: speedtest-cli
   version: 2.1.3
@@ -998,8 +996,23 @@
   summary: Command line interface for testing internet bandwidth using speedtest.net
   maintainers:
     - makefu@syntax-fehler.de
+    - domen@dev.si
   licenses:
     - Apache-2.0
+- repo: nix_stable_25_05
+  srcname: python312Packages.speedtest-cli
+  visiblename: python3.12-speedtest-cli
+  version: 2.1.3
+  origversion: null
+  status: newest
+  summary: Command line interface for testing internet bandwidth using speedtest.net
+  maintainers:
+    - makefu@syntax-fehler.de
+    - domen@dev.si
+  licenses:
+    - Apache-2.0
+  categories:
+    - python312Packages
 - repo: nix_stable_25_11
   srcname: python312Packages.speedtest-cli
   visiblename: python3.12-speedtest-cli
@@ -1014,6 +1027,17 @@
   categories:
     - python312Packages
 - repo: nix_stable_25_11
+  srcname: speedtest-cli
+  visiblename: speedtest-cli
+  version: 2.1.3
+  origversion: null
+  status: newest
+  summary: Command line interface for testing internet bandwidth using speedtest.net
+  maintainers:
+    - makefu@syntax-fehler.de
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_25_11
   srcname: python313Packages.speedtest-cli
   visiblename: python3.13-speedtest-cli
   version: 2.1.3
@@ -1027,6 +1051,30 @@
   categories:
     - python313Packages
 - repo: nix_stable_26_05
+  srcname: python313Packages.speedtest-cli
+  visiblename: speedtest-cli
+  version: 2.1.3
+  origversion: null
+  status: newest
+  summary: Command line interface for testing internet bandwidth using speedtest.net
+  maintainers:
+    - makefu@syntax-fehler.de
+  licenses:
+    - Apache-2.0
+  categories:
+    - python313Packages
+- repo: nix_stable_26_05
+  srcname: speedtest-cli
+  visiblename: speedtest-cli
+  version: 2.1.3
+  origversion: null
+  status: newest
+  summary: Command line interface for testing internet bandwidth using speedtest.net
+  maintainers:
+    - makefu@syntax-fehler.de
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_26_05
   srcname: python314Packages.speedtest-cli
   visiblename: speedtest-cli
   version: 2.1.3
@@ -1039,20 +1087,7 @@
     - Apache-2.0
   categories:
     - python314Packages
-- repo: nix_stable_26_05
-  srcname: python313Packages.speedtest-cli
-  visiblename: speedtest-cli
-  version: 2.1.3
-  origversion: null
-  status: newest
-  summary: Command line interface for testing internet bandwidth using speedtest.net
-  maintainers:
-    - makefu@syntax-fehler.de
-  licenses:
-    - Apache-2.0
-  categories:
-    - python313Packages
-- repo: nix_stable_26_05
+- repo: nix_unstable
   srcname: speedtest-cli
   visiblename: speedtest-cli
   version: 2.1.3
@@ -1076,17 +1111,6 @@
     - Apache-2.0
   categories:
     - python313Packages
-- repo: nix_unstable
-  srcname: speedtest-cli
-  visiblename: speedtest-cli
-  version: 2.1.3
-  origversion: null
-  status: newest
-  summary: Command line interface for testing internet bandwidth using speedtest.net
-  maintainers:
-    - makefu@syntax-fehler.de
-  licenses:
-    - Apache-2.0
 - repo: nix_unstable
   srcname: python314Packages.speedtest-cli
   visiblename: speedtest-cli
@@ -1112,16 +1136,6 @@
     - ports@openbsd.org
   categories:
     - benchmarks
-- repo: starkos
-  subrepo: extra
-  srcname: speedtest-cli
-  visiblename: speedtest-cli
-  version: 2.1.3
-  origversion: 2.1.3-1
-  status: newest
-  summary: Command line interface for testing internet bandwidth using speedtest.net
-  maintainers:
-    - starkos@disroot.org
 - repo: openmamba
   subrepo: base
   srcname: python-speedtest-cli
@@ -1144,6 +1158,18 @@
   visiblename: speedtest-cli
   version: 2.1.3
   origversion: 2.1.3-bp155.2.10
+  status: newest
+  summary: Command line interface for testing internet bandwidth
+  licenses:
+    - Apache-2.0
+  categories:
+    - System/Benchmark
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: speedtest-cli
+  visiblename: speedtest-cli
+  version: 2.1.3
+  origversion: 2.1.3-bp156.3.2
   status: newest
   summary: Command line interface for testing internet bandwidth
   licenses:
@@ -1176,6 +1202,22 @@
     - jem.patel@gmail.com
   categories:
     - lang
+- repo: rosa_2019_1
+  subrepo: contrib/release
+  srcname: speedtest-cli
+  binnames:
+    - speedtest-cli
+  visiblename: speedtest-cli
+  version: 2.1.3
+  origversion: 2.1.3-2
+  status: newest
+  summary: Command line interface for testing internet bandwidth
+  maintainers:
+    - alexander@mezon.ru
+  licenses:
+    - ASL 2.0
+  categories:
+    - Development/Tools
 - repo: openwrt_23_05_x86_64
   subrepo: packages
   srcname: feeds/packages/lang/python/python3-speedtest-cli
@@ -1313,19 +1355,6 @@
   version: 2.1.3
   origversion: 2.1.3-5
   status: newest
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: speedtest-cli
-  binnames:
-    - speedtest-cli
-  visiblename: speedtest-cli
-  version: 2.0.2
-  origversion: 2.0.2-1+deb10u2
-  status: outdated
-  maintainers:
-    - jcc@debian.org
-  categories:
-    - utils
 - repo: pureos_byzantium
   subrepo: byzantium/main
   srcname: speedtest-cli
@@ -1362,70 +1391,6 @@
   summary: Command line interface for testing internet bandwidth using speedtest.net
   maintainers:
     - matt@sivel.net
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: speedtest-cli
-  binnames:
-    - speedtest-cli
-  visiblename: speedtest-cli
-  version: 2.1.3
-  origversion: 2.1.3-2
-  status: newest
-  maintainers:
-    - jcc@debian.org
-  categories:
-    - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: speedtest-cli
-  binnames:
-    - speedtest-cli
-  visiblename: speedtest-cli
-  version: 2.1.3
-  origversion: 2.1.3-3
-  status: newest
-  maintainers:
-    - jcc@debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: speedtest-cli
-  binnames:
-    - speedtest-cli
-  visiblename: speedtest-cli
-  version: 2.1.3
-  origversion: 2.1.3-3
-  status: newest
-  maintainers:
-    - jcc@debian.org
-  categories:
-    - misc
-- repo: rosa_2019_1
-  subrepo: contrib/release
-  srcname: speedtest-cli
-  binnames:
-    - speedtest-cli
-  visiblename: speedtest-cli
-  version: 2.1.3
-  origversion: 2.1.3-2
-  status: newest
-  summary: Command line interface for testing internet bandwidth
-  maintainers:
-    - alexander@mezon.ru
-  licenses:
-    - ASL 2.0
-  categories:
-    - Development/Tools
-- repo: scoop
-  subrepo: main
-  binname: speedtest-cli
-  visiblename: speedtest-cli
-  version: 1.2.0
-  origversion: null
-  status: outdated
-  licenses:
-    - Freeware
 - repo: slackbuilds
   srcname: network/speedtest-cli
   visiblename: network/speedtest-cli
@@ -1450,6 +1415,17 @@
     - Apache-2.0
   categories:
     - network.util
+- repo: stalix
+  srcname: bin/speedtest/cli/unwrap
+  binname: bin/speedtest/cli
+  visiblename: bin/speedtest/cli
+  version: 2.1.3
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
 - repo: stalix_dev
   srcname: bin/speedtest/cli/unwrap
   binname: bin/speedtest/cli
@@ -1461,6 +1437,16 @@
     - anton@samokhvalov.xyz
   categories:
     - bin
+- repo: starkos
+  subrepo: extra
+  srcname: speedtest-cli
+  visiblename: speedtest-cli
+  version: 2.1.3
+  origversion: 2.1.3-1
+  status: newest
+  summary: Command line interface for testing internet bandwidth using speedtest.net
+  maintainers:
+    - starkos@disroot.org
 - repo: ubuntu_16_04
   subrepo: xenial/universe
   srcname: speedtest-cli
@@ -1472,19 +1458,6 @@
   status: outdated
   maintainers:
     - jonathan@ubuntu.com
-  categories:
-    - universe/misc
-- repo: ubuntu_18_04
-  subrepo: bionic/universe
-  srcname: speedtest-cli
-  binnames:
-    - speedtest-cli
-  visiblename: speedtest-cli
-  version: 2.0.0
-  origversion: 2.0.0-1
-  status: outdated
-  maintainers:
-    - jcc@debian.org
   categories:
     - universe/misc
 - repo: ubuntu_18_04
@@ -1500,14 +1473,14 @@
     - ubuntu-devel-discuss@lists.ubuntu.com
   categories:
     - universe/misc
-- repo: ubuntu_20_04
-  subrepo: focal/universe
+- repo: ubuntu_18_04
+  subrepo: bionic/universe
   srcname: speedtest-cli
   binnames:
     - speedtest-cli
   visiblename: speedtest-cli
-  version: 2.1.2
-  origversion: 2.1.2-2
+  version: 2.0.0
+  origversion: 2.0.0-1
   status: outdated
   maintainers:
     - jcc@debian.org
@@ -1524,6 +1497,19 @@
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - universe/misc
+- repo: ubuntu_20_04
+  subrepo: focal/universe
+  srcname: speedtest-cli
+  binnames:
+    - speedtest-cli
+  visiblename: speedtest-cli
+  version: 2.1.2
+  origversion: 2.1.2-2
+  status: outdated
+  maintainers:
+    - jcc@debian.org
   categories:
     - universe/misc
 - repo: ubuntu_22_04
